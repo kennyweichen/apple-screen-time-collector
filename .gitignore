@@ -1,0 +1,19 @@
+# Local runtime artifacts
+logs/
+*.log
+screentime_data.csv
+screentime_data.csv.last
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# macOS
+.DS_Store
+
+# Quarto
+.quarto/
+
+# Generated reports
+*.png
