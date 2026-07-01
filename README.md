@@ -3,6 +3,7 @@
 This repository collects Apple Screen Time data from macOS and optionally from iPhone/iPad data exposed through the ActivityWatch importer.
 
 Inspired by https://boazsobrado.com/blog/2026/02/03/how-i-built-a-personal-screen-time-tracker-for-mac-and-iphone-using-claude/#what-we-built.
+
 Found this helpful too: https://gist.github.com/0xdevalias/38cfc92278f85ae89a46f0c156208fd5#file-accessing-apple-screen-time-data-md.
 
 ## What it does
