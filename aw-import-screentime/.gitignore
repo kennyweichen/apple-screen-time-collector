@@ -1,0 +1,9 @@
+# Local
+*.egg-info/
+*.log
+*.py[cod]
+*.pyc
+.DS_Store
+.venv/
+__pycache__/
+dist/

@@ -1,0 +1,37 @@
+[project]
+name = "aw-import-screentime"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Erik Bjäreholt", email = "erik@bjareho.lt" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "aw-core",
+    "aw-client",
+    "ccl-segb",
+    "requests",
+    "protobuf>=6.33.0",
+    "rich>=14.2.0",
+    "typer>=0.12",
+    "typing-extensions>=4.12.2 ; python_version >= '3.13'",
+    "python-dateutil>=2.9.0.post0",
+    "dateparser>=1.2,<2",
+    "watchdog>=4,<7",
+    "tomli>=2.0.1 ; python_version < '3.11'",
+]
+
+[dependency-groups]
+dev = [
+    "black",
+    "pytest>=6.2.3,<7",
+    "mypy",
+]
+
+[project.scripts]
+aw-import-screentime = "aw_import_screentime.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+ccl-segb = { git = "https://github.com/cclgroupltd/ccl-segb.git", rev = "main" }
