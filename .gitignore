@@ -17,3 +17,4 @@ __pycache__/
 
 # Generated reports
 *.png
+visualize.qmd
